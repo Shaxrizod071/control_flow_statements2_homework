@@ -8,5 +8,10 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return min(a,b,c)
+    if a>b:
+         return a
+    if b>c:
+         return b
+    else:
+         return c
 print(main(2,3,4))
