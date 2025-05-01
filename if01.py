@@ -10,4 +10,4 @@ def main(a,b,c):
     """
     return max(a,b,c)
 
-
+print(main(3,5,8))
