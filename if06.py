@@ -7,3 +7,9 @@ def main(n):
         int: return answer.
     """
     return
+    mx=0
+    for i in range(len(a)):
+    if n[i]>str(i):
+        mx=n[i]
+    return mx
+print(main(12345))
