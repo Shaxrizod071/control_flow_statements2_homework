@@ -6,4 +6,11 @@ def main(n):
     Returns:
         int: return answer.
     """
-    return
+    mx=0
+    while n!=0:
+        b=n%10
+        if b>mx:
+           mx=b
+        n=n//10
+    return mx
+print(main(98764))  
