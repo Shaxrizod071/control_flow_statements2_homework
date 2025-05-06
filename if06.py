@@ -6,9 +6,9 @@ def main(n):
     Returns:
         int: return answer.
     """
-    mx=0
-    for i in range(len(n)):
-        if n[-1]>str(i) or not i:
-            mx=n[-1]
-        return mx
-print(main(12345))
+    inx=0
+    if n[0]>n[1] or n[2] or n[3] or n[4] or n[5]:
+         return n[0]
+    if n[1]>n[0]or n[2] or n[3] or n[4] or n[5]:
+        return n[1]
+print(main('advgd'))
