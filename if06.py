@@ -6,10 +6,9 @@ def main(n):
     Returns:
         int: return answer.
     """
-    return
     mx=0
-    for i in range(len(a)):
-    if n[i]>str(i):
-        mx=n[i]
-    return mx
+    for i in range(len(n)):
+        if n[-1]>str(i) or not i:
+            mx=n[-1]
+        return mx
 print(main(12345))
